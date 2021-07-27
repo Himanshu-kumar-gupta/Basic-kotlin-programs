@@ -6,6 +6,6 @@ fun main(args:Array<String>)
     val k:String?="skls"
 
     // k.length  //cannot call library functions on nullable variables(use safeCall)
-    // n=k  //typemismatch - cannot assign value of simple variable to nullable variable 
+    // n=k  //typeMismatch - cannot assign value of simple variable to nullable variable 
     println("$n = ${strlen(n)}")
 }
