@@ -22,7 +22,7 @@ fun main() {
    println(l2 is Long)
 
    val x = 5 / 2
-   //println(x == 2.5) // ERROR: Operator '==' cannot be applied to 'Int' and 'Double'
+   //println(x == 2.5) // ERROR: Operator '==' cannot be applied between 'Int' and 'Double'(type-mismatch)
    println("${x == 2}  : ${x is Int}")  //true : true
    val x1 = 5 / 2.toDouble()
    println("${x1 == 2.5}  : ${x1 is Double} \n") // true : true
